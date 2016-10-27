@@ -1,10 +1,52 @@
-button{
-  color: white;
-  background-color: blue;
+.ntr{
+  color: black;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(244, 245, 247, 0.7);
   border-radius: 5px;
   box-shadow: 5px;
+  border: 1px solid rgb(189, 191, 193);
 }
-button:hover{
+
+.ntr:hover{
   color: black;
-  background-color: red;
+  background-color: rgba(244, 245, 247, 1);
+  transform: scale(1.2);
+  transition: transform 1s, color 1s, background-color 1s;
+}
+
+.vld{
+  color: black;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(150, 211, 160, 0.7);
+  border-radius: 5px;
+  box-shadow: 5px;
+  border: 1px solid rgb(189, 191, 193);
+}
+
+.vld:hover{
+  color: black;
+  background-color: rgba(244, 245, 247, 1);
+  border: 1px solid green;
+  transform: scale(1.2);
+  transition: transform 1s, color 1s, background-color 1s, border 1s;
+}
+
+.anl{
+  color: black;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(244, 75, 66, 0.7);
+  border-radius: 5px;
+  box-shadow: 5px;
+  border: 1px solid rgb(189, 191, 193);
+}
+
+.anl:hover{
+  color: black;
+  background-color: rgba(244, 245, 247, 1);
+  border: 1px solid red;
+  transform: scale(1.2);
+  transition: transform 1s, color 1s, background-color 1s, border 1s;
 }
